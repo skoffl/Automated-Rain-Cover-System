@@ -1,0 +1,33 @@
+Hardware:
+PIC  16f877a:
+ - Acts as the brain of the system, controlling its operation.
+ - Receives inputs from sensors and sends commands to the motor setup.
+14
+Rain Sensor:
+ - Detects raindrops.
+ - Signals the Arduino Board when rain is detected, prompting it to deploy the
+tarp cover.
+GSM Module:
+ - Allows remote monitoring and control via SMS or call.
+ - Notifies users about rain detection and system status, enabling manual control.
+Motor Setup:
+ - Consists of motors, gears, and pulleys.
+ - Deploys and retracts the tarp cover based on commands from the Arduino
+
+Board.
+Mechanical Frame:
+ - Provides support for the system.
+ - Holds the motor setup and tarp cover securely.
+ -Square typed mild steel pipes
+Motor:
+ - Powers the movement of the tarp cover.
+ - Operates according to commands from the PIC Board.
+ - 60 RPM motor with heavy gear setup
+Tarp Cover:
+ - Made of waterproof material.
+ - Covers the drying area to protect clothes from rain.
+ - 1.5mm soft leather
+
+Software:
+MPLAB Code configuarator
+language Embedded C
